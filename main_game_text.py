@@ -98,12 +98,28 @@ def explore_area(player):
     if areas == "Town Hall🏫":
         print(Fore.GREEN+"The historic place where most of city's events took place... Mayor and his staff are all dead because of this deadyly virus")
         print(Fore.GREEN+" A mysterious radio message plays from a speaker. Someone might still be inside…")
+        
+
+
 
     elif areas == "City Center 🛒":
         print(Fore.GREEN+"The streets are full of abandoned cars and broken storefronts")
 
     elif areas == "Abandoned Hospital 🏥":
         print(Fore.GREEN+"💉 Inside a research lab, a sealed vial labeled --> Antidote Prototype <-- lies on a desk.🚷 \nA locked door rattles… someone (or something) is inside.")
+
+        print(Fore.CYAN + "\nBackstory Drama: The Antidote Prototype 💉 - The Final Betrayal – Dr. Carter’s Last Log")
+        print(Fore.LIGHTBLUE_EX + "\n🔬 Dr. Elias Carter’s Voice Recording – Found in a Blood-Stained Recorder.")
+        print(Fore.LIGHTBLUE_EX + "\n\"This is Dr. Carter… If you're listening to this, then we failed. The city is lost. The virus was never meant to spread beyond containment, yet here we are—on the brink of extinction. We had one chance, one antidote, but…\"\n")
+        time.sleep(2)
+        print(Fore.LIGHTBLUE_EX + "(Static noise. Heavy breathing.) \"They took it from me. The military arrived last night. They stormed in, demanded the prototype, and when I refused, they… they shot Dr. Patel. Right in front of me. Said it was 'for the greater good'—that they were taking it to a 'secure facility.' But I know the truth. There is no facility. There is no cure for them. Only power.\"\n")
+        time.sleep(2)
+        print(Fore.LIGHTBLUE_EX + "\"I managed to make a second vial, a secret one. It’s here, in this lab. But it’s not perfect. It needs one final compound to stabilize… and without it, I don’t know what it will do. Could cure… could kill. Could be worse.\"\n")
+        time.sleep(2)
+        print(Fore.LIGHTBLUE_EX + "(A loud bang in the background. Screams. Gunfire.)\n")
+        time.sleep(2)
+        print(Fore.LIGHTBLUE_EX + "\"They’re here. I don’t have much time. If you find this recording… if you find the antidote… you have to finish what we started. You have to make a choice. Use it… or burn it.\"\n")
+        print(Fore.LIGHTBLUE_EX + "(The recording cuts to silence.)")
 
 
     elif areas == "Gas Station ⛽":
